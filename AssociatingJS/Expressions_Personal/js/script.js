@@ -15,14 +15,17 @@ var vacationDays= vacationWeek*7;
 
 var busyDays= prompt("Let's assume there are just some random days where things happen preventing us from going to the park, how many of those random days happen a month?")
 
+var totalBusyDays= 12*busyDays
+
 
 var totalDaysOff =(7- Number(wifeWork)) *(52-Number(vacationWeek)) + +Number(vacationDays);
 
+var completeDaysOff = totalDaysOff-totalBusyDays;
 
 
 
 
 
-console.log("Counting regular days off, and vacation days, there are a total of " +totalDaysOff+ " days to go to SeaWorld");
+console.log("Counting regular days off, and vacation days, there are a total of "+completeDaysOff+ " days to go to SeaWorld");
 
-//console.log(daysAvailable);
+console.log(totalBusyDays);
