@@ -7,7 +7,7 @@
 
 alert("I put new sod down for my front lawn. \nThere is a lot of old grass, dirt, leaves \nand other lawn junk that needs to be disposed of.");       //describing the expression, this is the first part.
 
-alert("I find out that the garbage and lawn removal company will only pick up 20 bags of waste a week. \nProblem is there lots of bags of lawn waste.")  //The second part explaining the expression, its a long story so I need to break it up.
+alert("I find out that the garbage and lawn removal company will only pick up 15 bags of waste a week. \nProblem is there lots of bags of lawn waste.")  //The second part explaining the expression, its a long story so I need to break it up.
 
 alert("I have to see how many weeks it will take to get rid of all the lawn waste I have collected in trash bags......")  //last part, but most important, it states I need to see how many weeks I need to wait till all my lawn trash bags are picked up.
 
@@ -16,25 +16,26 @@ var bagsTrash= prompt("How many trash bags of sod did I use for the lawn","100")
 
 var truckFriend= prompt("How many times can I borrow my friends truck and haul to the dump (truck can hold 20 bags of trash?)");
 
-var carUse= prompt("How many times do I use my own car and drive to the dump?(my car can hold 10 bags of trash)");
+var carUse= prompt("How many times do I use my own car and drive to the dump?(my car can hold 7 bags of trash)");
 
 var truckTotal= truckFriend*20;
 
-var carTotal= carUse*10;
+var carTotal= carUse*7;
 
 var transportTotal= truckTotal+carTotal;
 
-var weeksTrash= (bagsTrash-transportTotal)/20;
-
-//document.write(Math.ceil(weeksTrash);
-
-
-document.write(Math.ceil(weeksTrash)); // writes 2
+var weeksTrash= (bagsTrash-transportTotal)/15;
 
 
 
+//console.log(weeksTrash);   want to see the answer to the formula before I add the ceiling option.
+
+var weeksTrash=(Math.ceil(weeksTrash)); // writes 2
 
 
-console.log(weeksTrash);
+
+
+
+
 console.log("I might use someone else's truck and my own car, but it would take "+weeksTrash+ " week(s) for the trash bags to be picked up.");
 
