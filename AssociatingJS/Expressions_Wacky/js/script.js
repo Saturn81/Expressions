@@ -12,11 +12,17 @@ alert("I find out that the garbage and lawn removal company will only pick up 15
 alert("I have to see how many weeks it will take to get rid of all the lawn waste I have collected in trash bags......")  //last part, but most important, it states I need to see how many weeks I need to wait till all my lawn trash bags are picked up.
 
 
-var bagsTrash= prompt("How many trash bags of sod did I use for the lawn","75");
+var bagsTrash= prompt("How many trash bags of sod did I use for the lawn","90");
 
 var truckFriend= prompt("How many times can I borrow my friends truck and haul to the dump (truck can hold 20 bags of trash?)");
 
-var Car= prompt("How many times do I use my own car and drive to the dump?(my car can hold 12 bags of trash)");
+var carUse= prompt("How many times do I use my own car and drive to the dump?(my car can hold 9 bags of trash)");
+
+var truckTotal= truckFriend*20;
+
+var carTotal= carUse*9;
+
+//var=bagsTrash-
 
 
 
@@ -25,7 +31,6 @@ var Car= prompt("How many times do I use my own car and drive to the dump?(my ca
 
 
 
-
-console.log("This is a test");
+console.log(carTotal);
 console.log("This is a second tester.");
 
