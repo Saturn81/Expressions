@@ -11,10 +11,10 @@ var juniorPay= prompt("How much an hour do you pay Junior Associates? \n(do not 
 var seniorPay= prompt("How much an hour do you pay Senior Associates?");
 
 
-var blakeHours = prompt("How many hours did blake work on project?\n (junior agents get $20.00 a hour)");
-var johnHours= prompt("How many hours did John work on the project?\n (junior agents get $20.00 a hour)");
-var janeHours = prompt("How many hours did Jane work on the project?\n (Senior agents get $40.00 a hour)");
-var outSource= prompt("How many outside temp agents did you hire?\n (Each agent gets a flat $400.00 for work done)")
+var blakeHours = prompt("How many hours did blake work on project?");
+var johnHours= prompt("How many hours did John work on the project?");
+var janeHours = prompt("How many hours did Jane work on the project");
+var outSource= prompt("How many outside temp agents did you hire?\n (Each Outsourced agent gets a flat $400.00 for work done)")
 
 var workers =["Blake", blakeHours, "John", johnHours, "Jane", janeHours, outSource, "OutSourced Worker(s)", juniorPay,seniorPay];
 
@@ -23,7 +23,7 @@ var howMuchMoney= (   (Number(workers[1]) * Number(workers[8])) +     (Number(wo
 
 
 
-console.log(howMuchMoney);   //MAIN TESTER for console
+console.log("I paid " + workers[0] + ", " +workers[2]+ ", " + workers[4]+ ", and " +workers[6]+ " " + workers[7]+ "a total of $"+howMuchMoney+ " for the completed website.");   //MAIN TESTER for console
 
 
 
