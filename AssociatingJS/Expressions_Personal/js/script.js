@@ -15,7 +15,7 @@ var vacationDays= vacationWeek*7;  // multiply the amount of weeks of vacation b
 
 var busyDays= prompt("Let's assume there are just some random days where things happen preventing us from going to the park, how many of those random days happen a month?")  //Life happens, so this prompt subtracts the days where we can't go to the park (average a month)
 
-var totalBusyDays= 12*busyDays    //the random busy days for no SeaWord, multiplied by 12, to represent the whole year; Total days for the year where life happens.
+var totalBusyDays= 12*busyDays    //the random busy days for no SeaWord, multiplied by 12, to represent the 12 months of a year; Total days for the year where life happens.
 
 
 var totalDaysOff =(7- Number(wifeWork)) *(52-Number(vacationWeek)) + +Number(vacationDays);  //total days off = the number of days a week she can work X weeks not on vacation +  the vacation days. This represents almost all the days off.
@@ -28,4 +28,4 @@ var completeDaysOff = totalDaysOff-totalBusyDays; //the formula above was so lar
 
 console.log("Counting regular days off, and vacation days, there are a total of "+completeDaysOff+ " days to go to SeaWorld");  //explaining the expression and seeing the total days to do to SeaWorld
 
-//console.log(totalBusyDays);  a extra prompt to test code. 
+//console.log(totalBusyDays);  a extra prompt to test code.
