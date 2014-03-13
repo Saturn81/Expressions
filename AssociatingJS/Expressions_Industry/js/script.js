@@ -19,7 +19,7 @@ var outSource= prompt("How many outside temp agents did you hire?\n (Each agent 
 var workers =["Blake", blakeHours, "John", johnHours, "Jane", janeHours, outSource, "OutSourced Worker(s)", juniorPay,seniorPay];
 
 
-var howMuchMoney= (   (Number(workers[1]) * Number(workers[8]) )+     (Number(workers[3]) * Number(workers[8]))                      );
+var howMuchMoney= (   (Number(workers[1]) * Number(workers[8])) +     (Number(workers[3]) * Number(workers[8])) +  (Number(workers[5]) * Number(workers[9])) +   (Number(workers[6]) * 400)              );
 
 
 
