@@ -28,7 +28,7 @@ var weeksTrash= (bagsTrash-transportTotal)/15;   //All the trash collected -all 
 
 
 
-//console.log(weeksTrash);                       want to see the answer to the formula before I add the ceiling option.
+//console.log(weeksTrash);                      // want to see the answer to the formula before I add the ceiling option.
 
 var weeksTrash=(Math.ceil(weeksTrash)); //The same formula but with a ceiling option. If the answer was uneven like 3.5, it needed to be rounded up to 4, because they can't pick up 3.5 days, it must be either 3 or 4, not .5
 
