@@ -26,11 +26,15 @@ var transportTotal= truckTotal+carTotal;
 
 var weeksTrash= (bagsTrash-transportTotal)/20;
 
+//document.write(Math.ceil(weeksTrash);
+
+
+document.write(Math.ceil(weeksTrash)); // writes 2
 
 
 
 
 
 console.log(weeksTrash);
-console.log("I might use someone else's truck and my own car, but it would take "+weeksTrash+ " week(s) to pick up al the trash.");
+console.log("I might use someone else's truck and my own car, but it would take "+weeksTrash+ " week(s) for the trash bags to be picked up.");
 
