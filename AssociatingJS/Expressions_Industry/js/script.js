@@ -19,19 +19,12 @@ var workers =["Blake", blakeHours, "John", johnHours, "Jane", janeHours, outSour
 
 var howMuchMoney= ( (Number(workers[1]) * Number(workers[8])) +(Number(workers[3]) * Number(workers[8])) + (Number(workers[5]) * Number(workers[9])) +   (Number(workers[6]) * 400) );  //This line represent how much we pay Blake, John, and Jane, and the outside workers.
 
-//the above code for LINE 20: Blakes Income + Jane's Income+ John's Income, + Outsourced Income = "howMuchMoney".
+//the above code for LINE 20: Blake's Income + Jane's Income+ John's Income, + Outsourced Income = "howMuchMoney".
 
 console.log("I paid " + workers[0] + ", " +workers[2]+ ", " + workers[4]+ ", and " +workers[6]+ " " + workers[7]+ "a total of $"+howMuchMoney+ " for the completed website.");   //MAIN TESTER for console
 
-//Line 24: the console log explaining the expression. Used Strings and elements of the Array to format the line of code. 
+//Line 24: the console log explaining the expression. Used Strings and elements of the Array to format the line of code.
 
 
 
-//console.log(Number(workers[1])+Number(workers[1]));
-
-
-
-//console.log("Blake worked a total  of " + workers[3]);
-
-//console.log(Number(workers[1])* Number(workers[1]));  //Just an experiment
 

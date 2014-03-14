@@ -23,22 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expressions_Industry/index.html">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+            <state line="18" column="0" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.43186182" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expressions_Personal/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="121" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.72115386" vertical-offset="0" max-vertical-offset="645">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,16 +54,16 @@
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/Expressions_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Expressions_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/Expressions_Industry/js/script.js" />
+        <option value="$PROJECT_DIR$/Expressions_Personal/js/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="87" />
-    <option name="width" value="1280" />
+    <option name="x" value="161" />
+    <option name="y" value="79" />
+    <option name="width" value="1601" />
     <option name="height" value="909" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -122,7 +120,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_Industry" />
+              <option name="myItemId" value="Expressions_Personal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -136,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_Industry" />
+              <option name="myItemId" value="Expressions_Personal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -202,14 +200,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="87" width="1280" height="909" extended-state="0" />
+    <frame x="161" y="79" width="1601" height="909" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31501833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31379732" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31930104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34683543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -264,18 +262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Personal/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="0.36217305" vertical-offset="0" max-vertical-offset="497" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="2404" selection-end="2404" vertical-scroll-proportion="1.0778443" vertical-offset="0" max-vertical-offset="705">
@@ -301,10 +287,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="121" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.72115386" vertical-offset="0" max-vertical-offset="645">
+        <state line="28" column="0" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.8076923" vertical-offset="0" max-vertical-offset="540">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.43186182" vertical-offset="0" max-vertical-offset="645">
+          <folding />
         </state>
       </provider>
     </entry>
